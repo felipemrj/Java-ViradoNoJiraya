@@ -14,7 +14,14 @@ public class Aula02TiposPrimitivosExercicio {
         double salary = 2000;
 
         System.out.printf("Eu %s, morando no endereço %s,\n" +
-                "confirmo que recebi o salário de %.2f, na data %s.", name, adress, salary, date);
+                "confirmo que recebi o salário de %.2f, na data %s.\n", name, adress, salary, date);
+
+        // ou
+
+        String phrase = "Eu "+name+", morando no endereço "+adress+",\n" +
+                "confirmo que recebi o salário de "+salary+", na data "+date+".";
+
+        System.out.println(phrase);
 
     }
 }
