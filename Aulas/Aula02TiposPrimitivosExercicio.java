@@ -1,0 +1,20 @@
+/*
+Crie variáveis para os campos descritos abaixo entre <> e imprima a seguinte mensagem:
+
+Eu <nome>, morando no endereço <endereço>,
+confirmo que recebi o salário de <salario>, na data <data>.
+
+ */
+
+public class Aula02TiposPrimitivosExercicio {
+    public static void main(String[] args) {
+        String name = "Felipe";
+        String adress = "Rua João, nº123, Vila do Chaves";
+        String date = "10/09/2022";
+        double salary = 2000;
+
+        System.out.printf("Eu %s, morando no endereço %s,\n" +
+                "confirmo que recebi o salário de %.2f, na data %s.", name, adress, salary, date);
+
+    }
+}
