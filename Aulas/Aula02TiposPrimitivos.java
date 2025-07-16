@@ -8,8 +8,8 @@ public class Aula02TiposPrimitivos {
         short ageShort = 10;            // Size: 2 bytes    | Range: -32.768 to 32.767     | Default value: 0
         int ageInt = 10;                // Size: 4 bytes    | Range: -2.1E9 to 2.1E9       | Default value: 0
         long ageLong = 100000;          // Size: 8 bytes    | Range: -9.2E18 to 9.2E18     | Default value: 0
-        float salaryFloat = 2500;       // Size: 4 bytes    | Range: ±1.4E-45 to ±3.4E+38  | Default value: 0.0f
-        double salaryDouble = 2000;     // Size: 8 bytes    | Range: ±4.9E-324 to ±1.7E+308| Default value: 0.0d
+        float wageFloat = 2500;       // Size: 4 bytes    | Range: ±1.4E-45 to ±3.4E+38  | Default value: 0.0f
+        double wageDouble = 2000;     // Size: 8 bytes    | Range: ±4.9E-324 to ±1.7E+308| Default value: 0.0d
         boolean trueBoolean = true;     // Size: 1 bit      | Range: true or false         | Default value: false
         boolean falseBoolean = false;
         char character = 'A';           // Size: 2 bytes    | Range: '\u0000' to '\uffff'  | Default value: \u0000
@@ -26,7 +26,7 @@ public class Aula02TiposPrimitivos {
 
         int ageIntCast = (int) 100000000000000L;
         long ageLongCast = (long) 155.23;
-        float salaryFloatCast = (float) 2500.0D;
+        float wageFloatCast = (float) 2500.0D;
 
         /*
         Casting em Java é o processo de conversão explícita de um tipo de dado para outro. Existem dois tipos principais de casting:

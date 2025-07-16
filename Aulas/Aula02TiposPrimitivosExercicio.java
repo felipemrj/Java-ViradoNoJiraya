@@ -11,15 +11,15 @@ public class Aula02TiposPrimitivosExercicio {
         String name = "Felipe";
         String adress = "Rua João, nº123, Vila do Chaves";
         String date = "10/09/2022";
-        double salary = 2000;
+        double wage = 2000;
 
         System.out.printf("Eu %s, morando no endereço %s,\n" +
-                "confirmo que recebi o salário de %.2f, na data %s.\n", name, adress, salary, date);
+                "confirmo que recebi o salário de %.2f, na data %s.\n", name, adress, wage, date);
 
         // ou
 
         String phrase = "Eu "+name+", morando no endereço "+adress+",\n" +
-                "confirmo que recebi o salário de "+salary+", na data "+date+".";
+                "confirmo que recebi o salário de "+wage+", na data "+date+".";
 
         System.out.println(phrase);
 
