@@ -1,0 +1,1 @@
+This repository will serve as a progress log for the Java course by DevDojo
