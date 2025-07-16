@@ -1,3 +1,5 @@
+package Aula01Comentarios;
+
 public class Aula01Comentarios {
     public static void main(String[] args) {
         // Comentários são pedaços de texto que não afetam o código em si, são apenas informativos.

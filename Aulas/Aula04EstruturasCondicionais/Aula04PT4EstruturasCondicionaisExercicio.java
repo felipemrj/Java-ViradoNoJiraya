@@ -1,3 +1,5 @@
+package Aula04EstruturasCondicionais;
+
 import java.util.Scanner;
 public class Aula04PT4EstruturasCondicionaisExercicio {
     public static void main(String[] args) {

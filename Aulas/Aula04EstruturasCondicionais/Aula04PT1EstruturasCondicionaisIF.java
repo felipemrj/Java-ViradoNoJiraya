@@ -1,3 +1,5 @@
+package Aula04EstruturasCondicionais;
+
 public class Aula04PT1EstruturasCondicionaisIF {
     public static void main(String[] args) {
         int age = 15;

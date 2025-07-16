@@ -1,3 +1,5 @@
+package Aula03Operadores;
+
 public class Aula03PT3OperadoresLogicos {
     public static void main(String[] args) {
         // Operadores Lógicos: && (and) || (or) ! (not)

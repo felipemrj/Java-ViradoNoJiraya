@@ -1,3 +1,5 @@
+package Aula03Operadores;
+
 public class Aula03PT1OperadoresAritmeticos {
     public static void main(String[] args) {
         // Operadores Aritméticos: + / - * %

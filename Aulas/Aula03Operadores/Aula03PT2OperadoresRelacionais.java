@@ -1,3 +1,5 @@
+package Aula03Operadores;
+
 public class Aula03PT2OperadoresRelacionais {
     public static void main(String[] args) {
         /*

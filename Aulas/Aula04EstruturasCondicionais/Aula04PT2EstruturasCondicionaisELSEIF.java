@@ -1,3 +1,5 @@
+package Aula04EstruturasCondicionais;
+
 public class Aula04PT2EstruturasCondicionaisELSEIF {
     public static void main(String[] args) {
         // idade < 15 categoria infantil

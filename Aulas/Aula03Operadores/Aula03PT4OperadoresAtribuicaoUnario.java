@@ -1,3 +1,5 @@
+package Aula03Operadores;
+
 public class Aula03PT4OperadoresAtribuicaoUnario {
     public static void main(String[] args) {
         // Operadores de Atribuição: =, +=, -=, *=, /=, %=

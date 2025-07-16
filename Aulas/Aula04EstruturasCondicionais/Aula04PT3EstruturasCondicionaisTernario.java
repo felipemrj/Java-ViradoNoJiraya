@@ -1,3 +1,5 @@
+package Aula04EstruturasCondicionais;
+
 public class Aula04PT3EstruturasCondicionaisTernario {
     public static void main(String[] args) {
         // Doar se salario > 5000;

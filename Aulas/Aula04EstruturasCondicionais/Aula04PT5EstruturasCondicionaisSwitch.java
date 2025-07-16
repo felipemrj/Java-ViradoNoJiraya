@@ -1,3 +1,5 @@
+package Aula04EstruturasCondicionais;
+
 public class Aula04PT5EstruturasCondicionaisSwitch {
     public static void main(String[] args) {
         // Imprima o dia da semana, considerando 1 como domingo

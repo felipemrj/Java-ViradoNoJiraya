@@ -1,4 +1,4 @@
-/*
+package Aula02TiposPrimitivos;/*
 Crie variáveis para os campos descritos abaixo entre <> e imprima a seguinte mensagem:
 
 Eu <nome>, morando no endereço <endereço>,
