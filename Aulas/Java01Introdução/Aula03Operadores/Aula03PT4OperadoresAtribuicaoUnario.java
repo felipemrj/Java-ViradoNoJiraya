@@ -1,4 +1,4 @@
-package Aula03Operadores;
+package Java01Introdução.Aula03Operadores;
 
 public class Aula03PT4OperadoresAtribuicaoUnario {
     public static void main(String[] args) {

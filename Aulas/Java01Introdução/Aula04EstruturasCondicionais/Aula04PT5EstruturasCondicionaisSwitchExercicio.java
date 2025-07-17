@@ -1,4 +1,4 @@
-package Aula04EstruturasCondicionais;
+package Java01Introdução.Aula04EstruturasCondicionais;
 
 public class Aula04PT5EstruturasCondicionaisSwitchExercicio {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Aula02TiposPrimitivos;/*
+package Java01Introdução.Aula02TiposPrimitivos;/*
 Crie variáveis para os campos descritos abaixo entre <> e imprima a seguinte mensagem:
 
 Eu <nome>, morando no endereço <endereço>,

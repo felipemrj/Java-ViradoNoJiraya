@@ -1,4 +1,4 @@
-package Aula04EstruturasCondicionais;
+package Java01Introdução.Aula04EstruturasCondicionais;
 
 public class Aula04PT3EstruturasCondicionaisTernario {
     public static void main(String[] args) {

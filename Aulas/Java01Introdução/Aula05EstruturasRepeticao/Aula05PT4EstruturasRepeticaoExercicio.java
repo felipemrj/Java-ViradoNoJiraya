@@ -1,4 +1,4 @@
-package Aula05EstruturasRepeticao;
+package Java01Introdução.Aula05EstruturasRepeticao;
 
 public class Aula05PT4EstruturasRepeticaoExercicio {
     public static void main(String[] args) {

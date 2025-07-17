@@ -1,6 +1,4 @@
-package Aula05EstruturasRepeticao;
-
-import java.sql.SQLOutput;
+package Java01Introdução.Aula05EstruturasRepeticao;
 
 public class Aula05PT3EstruturasRepeticaoBreak {
     public static void main(String[] args) {
