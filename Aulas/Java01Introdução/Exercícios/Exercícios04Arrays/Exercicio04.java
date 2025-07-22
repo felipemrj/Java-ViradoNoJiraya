@@ -18,7 +18,5 @@ public class Exercicio04 {
         }
         media = total / 15;
         System.out.println(media);
-
-
     }
 }

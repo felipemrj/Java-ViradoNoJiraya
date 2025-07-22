@@ -1,4 +1,0 @@
-package Java01Introdução.Aula07ArraysMultidimensionais;
-
-public class Aula07PT03ArraysMultidimensionaisInicialização {
-}
