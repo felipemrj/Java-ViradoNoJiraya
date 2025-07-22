@@ -12,4 +12,12 @@ public class Calculadora {
     public void multiplicarDoisNumeros(int numeroUm, int numeroDois) {
         System.out.println(numeroUm * numeroDois);
     }
+
+    public double divideDoisNumeros(double numeroUm, double numeroDois) {
+        if (numeroDois == 0) {
+            return 0;
+        } else {
+            return numeroUm / numeroDois;
+        }
+    }
 }
