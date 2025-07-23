@@ -24,8 +24,7 @@ public class PT04Atribuição {
         int counterThree = 0;
         System.out.println(++counterThree);
 
-        /*
-        O operador `++` pode ser usado antes (pré-incremento) ou depois (pós-incremento) da variável.
+        /* O operador `++` pode ser usado antes (pré-incremento) ou depois (pós-incremento) da variável.
 
         - Pré-incremento (`++variável`): incrementa o valor antes de usar na expressão.
         - Pós-incremento (`variável++`): usa o valor atual na expressão e só depois incrementa.
@@ -35,9 +34,7 @@ public class PT04Atribuição {
         int x = 5;
         System.out.println(++x); // Imprime 6 (incrementa antes)
         System.out.println(x++); // Imprime 6 (incrementa depois)
-        System.out.println(x);   // Imprime 7
-
-         */
+        System.out.println(x);   // Imprime 7 */
 
     }
 }

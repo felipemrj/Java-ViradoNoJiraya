@@ -2,13 +2,18 @@ package Java02OrientaçãoObjetos.Aula11Métodos.test;
 
 import Java02OrientaçãoObjetos.Aula11Métodos.domain.Calculadora;
 
-public class CalculadoraTest03 {
+public class CalculadoraTest04 {
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
-        double resultado = calculadora.divideDoisNumeros(2, 2);
-        System.out.println(resultado);
-        System.out.println(calculadora.divideDoisNumeros(2, 2));
+
+        int a = 1;
+        int b = 2;
+        calculadora.alteraDoisNumeros(a, b);
+
         System.out.println("-------------");
-        calculadora.imprimeDivisaoDeDoisNumeros(86, 5);
+
+        System.out.println("Dentro CalculadoraTest04");
+        System.out.println("Num1 " + a);
+        System.out.println("Num2 " + b);
     }
 }

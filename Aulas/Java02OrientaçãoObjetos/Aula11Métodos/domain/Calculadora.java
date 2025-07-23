@@ -20,4 +20,20 @@ public class Calculadora {
             return numeroUm / numeroDois;
         }
     }
+
+    public void imprimeDivisaoDeDoisNumeros(double numeroUm, double numeroDois) {
+        if (numeroDois == 0) {
+            System.out.println("Não existe divisão por zero");
+            return;
+        }
+        System.out.println(numeroUm / numeroDois);
+    }
+
+    public void alteraDoisNumeros(int numeroUm, int numeroDois) {
+        numeroUm = 99;
+        numeroDois = 33;
+        System.out.println("Dentro do alteraDoisNumeros");
+        System.out.println("Num1 " + numeroUm);
+        System.out.println("Num2 " + numeroDois);
+    }
 }

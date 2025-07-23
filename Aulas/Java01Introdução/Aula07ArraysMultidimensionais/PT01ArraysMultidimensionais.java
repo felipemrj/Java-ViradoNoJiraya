@@ -2,10 +2,29 @@ package Java01Introdução.Aula07ArraysMultidimensionais;
 
 public class PT01ArraysMultidimensionais {
     public static void main(String[] args) {
-        // Arrays multidimensionais são arrays de arrays, estão linkados e podemos navegar entre todas as posições que eles tem automaticamente
-        // 1, 2, 3 meses
-        // 31, 28, 31dias
-        // Quando declaramos um array multidimensional o primeiro [] é a base e o que ele armazena é outro array
+        /* Arrays multidimensionais são arrays de arrays, estão linkados e podemos navegar entre todas as posições que eles tem automaticamente
+        1, 2, 3 meses
+        31, 28, 31dias
+        Quando declaramos um array multidimensional o primeiro [] é a base e o que ele armazena é outro array
+
+
+        Exemplo visual de um array multidimensional int[3][3]:
+
+                                   0   1   2
+                                 ┌───┬───┬───┐
+                                 │   │   │   │   ← Array externo (linha)
+                                 └─┬─┴─┬─┴─┬─┘
+                       ____________│   │   │___________
+                       │               │               │
+                       ▼               ▼               ▼
+                ┌───┬───┬───┐    ┌───┬───┬───┐    ┌───┬───┬───┐
+            0 → │ 0 │ 0 │ 0 │ 1 →│ 0 │ 0 │ 0 │ 2 →│ 0 │ 0 │ 0 │
+                └───┴───┴───┘    └───┴───┴───┘    └───┴───┴───┘
+                  0   1   2        0   1   2        0   1   2
+
+       Para acessar um elemento: dias[linha][coluna]
+       Ex: dias[1][2] → acessa o elemento da linha 1, coluna 2 */
+
         int[][] dias = new int[3][3];
 
         dias[0][0] = 31;
@@ -32,8 +51,7 @@ public class PT01ArraysMultidimensionais {
             }
         }
 
-        /*
-        Teste de mesa do laço duplo:
+        /* Teste de mesa do laço duplo:
 
         i=0, j=0 -> dias[0][0] = 31
         i=0, j=1 -> dias[0][1] = 28
@@ -45,28 +63,6 @@ public class PT01ArraysMultidimensionais {
 
         i=2, j=0 -> dias[2][0] = 31
         i=2, j=1 -> dias[2][1] = 28
-        i=2, j=2 -> dias[2][2] = 31
-
-        */
-
-        /*
-       Exemplo visual de um array multidimensional int[3][3]:
-
-                               0   1   2
-                             ┌───┬───┬───┐
-                             │   │   │   │   ← Array externo (linha)
-                             └─┬─┴─┬─┴─┬─┘
-                   ____________│   │   │___________
-                   │               │               │
-                   ▼               ▼               ▼
-            ┌───┬───┬───┐    ┌───┬───┬───┐    ┌───┬───┬───┐
-        0 → │ 0 │ 0 │ 0 │ 1 →│ 0 │ 0 │ 0 │ 2 →│ 0 │ 0 │ 0 │
-            └───┴───┴───┘    └───┴───┴───┘    └───┴───┴───┘
-              0   1   2        0   1   2        0   1   2
-
-       Para acessar um elemento: dias[linha][coluna]
-       Ex: dias[1][2] → acessa o elemento da linha 1, coluna 2
-
-    */
+        i=2, j=2 -> dias[2][2] = 31 */
     }
 }

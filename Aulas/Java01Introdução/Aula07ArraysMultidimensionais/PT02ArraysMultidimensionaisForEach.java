@@ -32,8 +32,7 @@ public class PT02ArraysMultidimensionaisForEach {
             }
         }
 
-        /*
-        Teste de mesa do for-each:
+        /* Teste de mesa do for-each:
 
         Iteração 1:
         arrBase referencia dias[0] -> [31, 28, 31]
@@ -51,8 +50,7 @@ public class PT02ArraysMultidimensionaisForEach {
         arrBase referencia dias[2] -> [31, 28, 31]
             num = 31
             num = 28
-            num = 31
-        */
+            num = 31 */
 
     }
 }

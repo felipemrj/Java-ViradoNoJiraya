@@ -1,10 +1,8 @@
-package Java01Introdução.Aula02TiposPrimitivos;/*
-Crie variáveis para os campos descritos abaixo entre <> e imprima a seguinte mensagem:
+package Java01Introdução.Aula02TiposPrimitivos;
+/* Crie variáveis para os campos descritos abaixo entre <> e imprima a seguinte mensagem:
 
 Eu <nome>, morando no endereço <endereço>,
-confirmo que recebi o salário de <salario>, na data <data>.
-
- */
+confirmo que recebi o salário de <salario>, na data <data>. */
 
 public class PT02Exercicio {
     public static void main(String[] args) {
@@ -18,8 +16,8 @@ public class PT02Exercicio {
 
         // ou
 
-        String phrase = "Eu "+name+", morando no endereço "+adress+",\n" +
-                "confirmo que recebi o salário de "+wage+", na data "+date+".";
+        String phrase = "Eu " + name + ", morando no endereço " + adress + ",\n" +
+                "confirmo que recebi o salário de " + wage + ", na data " + date + ".";
 
         System.out.println(phrase);
 

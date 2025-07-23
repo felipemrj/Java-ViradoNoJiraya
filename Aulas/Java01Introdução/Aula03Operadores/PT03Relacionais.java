@@ -16,8 +16,7 @@ public class PT03Relacionais {
         boolean isPlaystationBuyable = totalValueChecking > valuePlaystation || totalValueSavings > valuePlaystation;
         System.out.println(isPlaystationBuyable);
 
-        /*
-        Os operadores lógicos em Java permitem combinar ou inverter condições booleanas:
+        /* Os operadores lógicos em Java permitem combinar ou inverter condições booleanas:
 
         && (E lógico): retorna true apenas se ambas as condições forem verdadeiras.
         Exemplo: age > 30 && wage >= 4612 só será true se age > 30 e wage >= 4612.
@@ -41,8 +40,6 @@ public class PT03Relacionais {
 
         - && (E lógico): true apenas se ambos forem true.
         - || (OU lógico): true se pelo menos um for true.
-        - ! (NÃO lógico): inverte o valor booleano.
-        */
-
+        - ! (NÃO lógico): inverte o valor booleano. */
     }
 }

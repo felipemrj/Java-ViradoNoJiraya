@@ -13,10 +13,10 @@ public class PT03ArraysForEach {
             System.out.println(num);
         }
 
-        // O for-each é uma forma simplificada de percorrer todos os elementos de um array ou coleção.
-        // Ele não usa índices, tornando o código mais limpo e fácil de ler.
-        // Exemplo: para cada elemento 'num' dentro do array 'numeros2', execute o bloco abaixo.
-        // Não é possível acessar o índice do elemento diretamente usando for-each.
+        /* O for-each é uma forma simplificada de percorrer todos os elementos de um array ou coleção.
+        Ele não usa índices, tornando o código mais limpo e fácil de ler.
+        Exemplo: para cada elemento 'num' dentro do array 'numeros2', execute o bloco abaixo.
+        Não é possível acessar o índice do elemento diretamente usando for-each. */
 
     }
 }

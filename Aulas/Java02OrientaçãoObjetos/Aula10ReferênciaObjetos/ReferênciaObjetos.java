@@ -1,8 +1,7 @@
 package Java02OrientaçãoObjetos.Aula10ReferênciaObjetos;
 
 public class ReferênciaObjetos {
-    /*
-    Em Java, referências de objetos são variáveis que armazenam o endereço de memória onde um objeto é armazenado.
+    /* Em Java, referências de objetos são variáveis que armazenam o endereço de memória onde um objeto é armazenado.
     Elas não contêm o objeto em si, mas sim um ponteiro para a localização do objeto na memória.
     Isso permite que vários "nomes" (variáveis) façam referência ao mesmo objeto, e que um objeto exista sem
     que nenhuma variável o esteja referenciando.
@@ -23,7 +22,6 @@ public class ReferênciaObjetos {
     System.out.println(pessoa1 == pessoa2); // Saída: true (ambas as referências apontam para o mesmo objeto)
 
     Pessoa pessoa3 = new Pessoa("João"); // Cria um novo objeto
-    System.out.println(pessoa1 == pessoa3); // Saída: false (referências diferentes)
-     */
+    System.out.println(pessoa1 == pessoa3); // Saída: false (referências diferentes) */
 
 }
