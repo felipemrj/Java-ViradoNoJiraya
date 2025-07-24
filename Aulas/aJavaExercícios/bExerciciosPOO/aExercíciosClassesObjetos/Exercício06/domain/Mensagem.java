@@ -1,0 +1,7 @@
+package aJavaExercícios.bExerciciosPOO.aExercíciosClassesObjetos.Exercício06.domain;
+
+public class Mensagem {
+    public void exibirMensagem(String nome) {
+        System.out.println("Olá, " + nome + "!");
+    }
+}

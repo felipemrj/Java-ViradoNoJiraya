@@ -1,0 +1,7 @@
+package aJavaExercícios.bExerciciosPOO.aExercíciosClassesObjetos.Exercício19.domain;
+
+public class Computador {
+    public String marca;
+    public String modelo;
+    public int ano;
+}

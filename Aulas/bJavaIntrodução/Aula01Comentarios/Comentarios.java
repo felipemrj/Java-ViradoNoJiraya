@@ -12,7 +12,7 @@ public class Comentarios {
         múltiplas
         linhas */
 
-        /** * Comentário oficial Javadoc que permite o uso de HTML <b>Javadoc</b> */
+        /** * Comentário oficial Javadoc que permite o uso de HTML <aJavaExercícios.bExerciciosPOO.b>Javadoc</aJavaExercícios.bExerciciosPOO.b> */
 
         /* Comentários devem ser evitados, seu código deve ser claro o suficiente para que não
         sejam necessárias explicaçõs, salvo exceções. CTRL + ALT + B abre a documentação do código selecionado.
