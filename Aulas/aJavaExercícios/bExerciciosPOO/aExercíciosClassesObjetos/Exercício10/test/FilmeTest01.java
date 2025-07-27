@@ -20,5 +20,7 @@ public class FilmeTest01 {
         impressora.exibeFilme(filmeUm);
         System.out.println("----------");
         impressora.exibeFilme(filmeDois);
+
+        filmeUm.compararAno(filmeDois);
     }
 }

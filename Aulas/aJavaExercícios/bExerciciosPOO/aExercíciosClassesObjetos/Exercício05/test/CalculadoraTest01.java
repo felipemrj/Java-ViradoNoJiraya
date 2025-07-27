@@ -11,5 +11,6 @@ public class CalculadoraTest01 {
         calculadora.subtrairDoisNum(a, b);
         calculadora.multiplicarDoisNum(a, b);
         calculadora.dividirDoisNum(a, b);
+        calculadora.somarNumeros(1,2,3,4,5);
     }
 }

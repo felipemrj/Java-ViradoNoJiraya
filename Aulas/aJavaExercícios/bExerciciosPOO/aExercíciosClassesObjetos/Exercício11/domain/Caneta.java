@@ -3,4 +3,9 @@ package aJavaExercícios.bExerciciosPOO.aExercíciosClassesObjetos.Exercício11.
 public class Caneta {
     public String cor;
     public double espessuraPonta;
+
+    public void trocarCor(String novaCor) {
+        cor = novaCor;
+        System.out.println(cor);
+    }
 }

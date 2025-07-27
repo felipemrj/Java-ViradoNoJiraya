@@ -5,5 +5,6 @@ public class ImprimeProduto {
         System.out.println(produto.nome);
         System.out.println(produto.preco);
         System.out.println(produto.quantidade);
+        System.out.println(produto.valorTotal());
     }
 }

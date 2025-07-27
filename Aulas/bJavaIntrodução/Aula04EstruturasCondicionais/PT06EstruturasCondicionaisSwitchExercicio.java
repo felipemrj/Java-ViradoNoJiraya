@@ -15,6 +15,5 @@ public class PT06EstruturasCondicionaisSwitchExercicio {
             default:
                 System.out.println("Inválido");
         }
-
     }
 }

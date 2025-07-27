@@ -33,7 +33,7 @@ public class PessoaTest01 {
 
         // Apesar de pessoaUm e pessoaDois terem os mesmos valores de atributos, não é por isso que o bloco if retorna true
         // pessoaUm e pessoaDois apontam para o mesmo espaço na memória, e é isso que está sendo comparado
-        if (pessoaUm == pessoaDois) {
+        if (Pessoa.mesmaReferencia(pessoaUm, pessoaDois)) {
             System.out.println("True");
         } else {
             System.out.println("False");
@@ -41,7 +41,7 @@ public class PessoaTest01 {
 
         // Isso é comprovado com o seguinte if, em que os dois objetos também possuem os mesmos valores, mas como estão alocados
         // em espaços diferentes na memória o if retorna false
-        if (pessoaUm == pessoaTres) {
+        if (Pessoa.mesmaReferencia(pessoaUm, pessoaTres)) {
             System.out.println("True");
         } else {
             System.out.println("False");

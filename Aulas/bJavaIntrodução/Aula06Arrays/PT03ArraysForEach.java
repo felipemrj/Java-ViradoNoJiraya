@@ -13,6 +13,15 @@ public class PT03ArraysForEach {
             System.out.println(num);
         }
 
+
+        for (int numero : numeros) {
+            System.out.println(numero);
+        }
+        /*
+
+        para cada numero na lista de numeros
+        for each number in the list of numbers
+
         /* O for-each é uma forma simplificada de percorrer todos os elementos de um array ou coleção.
         Ele não usa índices, tornando o código mais limpo e fácil de ler.
         Exemplo: para cada elemento 'num' dentro do array 'numeros2', execute o bloco abaixo.

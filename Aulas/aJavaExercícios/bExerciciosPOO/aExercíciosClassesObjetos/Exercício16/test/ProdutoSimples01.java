@@ -23,5 +23,9 @@ public class ProdutoSimples01 {
         desconto.aplicaDesconto(produtoDois, 10);
         desconto.aplicaDesconto(produtoTres, 10);
 
+        produtoUm.aplicarDescontoSePrecoAlto(200, 10);
+        produtoDois.aplicarDescontoSePrecoAlto(200, 10);
+        produtoTres.aplicarDescontoSePrecoAlto(200, 10);
+
     }
 }

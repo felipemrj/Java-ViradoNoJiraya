@@ -21,6 +21,9 @@ public class AnimalTest01 {
         System.out.println("-------------");
         impressora.exibeAnimal(animalDois);
 
+        animalUm.emitirSom();
+        animalDois.emitirSom();
+
 
 
     }

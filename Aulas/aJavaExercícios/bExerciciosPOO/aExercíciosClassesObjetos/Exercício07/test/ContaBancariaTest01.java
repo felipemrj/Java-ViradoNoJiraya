@@ -23,6 +23,9 @@ public class ContaBancariaTest01 {
 
         contaUm.saldo = deposito.depositarDinheiro(contaUm.saldo, 20000);
 
+        contaUm.sacar(10000);
+        System.out.println(contaUm.saldo);
+
 
     }
 }

@@ -21,6 +21,8 @@ public class CanetaTest01 {
         System.out.println(canetaUm.cor);
         System.out.println(canetaUm.espessuraPonta);
 
+        canetaUm.trocarCor("Laranja");
+
         // Ao atribuir canetaUm a canetaDois, estamos atribuindo à variável de referência canetaDois
         // o mesmo espaço de memória onde está a canetaUm, portanto ao modificar atributos de canetaDois
         // o atributo de canetaUm também é alterado

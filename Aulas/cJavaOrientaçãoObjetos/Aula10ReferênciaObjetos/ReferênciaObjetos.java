@@ -24,4 +24,6 @@ public class ReferênciaObjetos {
     Pessoa pessoa3 = new Pessoa("João"); // Cria um novo objeto
     System.out.println(pessoa1 == pessoa3); // Saída: false (referências diferentes) */
 
+
+
 }

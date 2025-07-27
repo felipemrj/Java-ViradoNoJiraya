@@ -17,4 +17,11 @@ public class Calculadora {
         }
         System.out.println(numUm / numDois);
     }
+    public void somarNumeros(int... numeros) {
+        int soma = 0;
+        for (int numero : numeros) {
+            soma += numero;
+        }
+        System.out.println(soma);
+    }
 }

@@ -8,7 +8,7 @@ public class PessoaTest01 {
         Pessoa pessoaDois = new Pessoa();
 
         pessoaUm.nome = "Felipe";
-        pessoaUm.idade = 30;
+        pessoaUm.idade = 10;
         pessoaUm.sexo = 'M';
 
         pessoaDois.nome = "Thamyres";
@@ -22,6 +22,12 @@ public class PessoaTest01 {
         System.out.println(pessoaDois.nome);
         System.out.println(pessoaDois.idade);
         System.out.println(pessoaDois.sexo);
+
+        if (pessoaUm.maiorDeIdade()) {
+            System.out.println(pessoaUm.nome + " é maior de idade.");
+        } else {
+            System.out.println(pessoaUm.nome + " é menor de idade.");
+        }
 
     }
 }

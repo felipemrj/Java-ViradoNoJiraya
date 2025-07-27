@@ -14,5 +14,7 @@ public class MensagemTest01 {
         mensagem.exibirMensagem(nome);
 
         mensagem.exibirMensagem("Wagner");
+
+        mensagem.exibirMensagemComPrefixo("Sr", "Felipe");
     }
 }

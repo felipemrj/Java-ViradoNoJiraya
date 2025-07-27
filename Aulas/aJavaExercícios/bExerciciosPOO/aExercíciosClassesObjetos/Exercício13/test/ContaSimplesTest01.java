@@ -10,13 +10,17 @@ public class ContaSimplesTest01 {
         ImprimeConta impressora = new ImprimeConta();
 
         contaUm.titular = "Felipe";
-        contaUm.saldo = 42009;
+        contaUm.saldo = 42000;
 
         contaDois.titular = "Thamyres";
         contaDois.saldo = 900000;
 
         impressora.exibirConta(contaUm);
         impressora.exibirConta(contaDois);
+
+        contaUm.depositosMultiplos(100, 100, 100, 100);
+
+        impressora.exibirConta(contaUm);
 
     }
 }

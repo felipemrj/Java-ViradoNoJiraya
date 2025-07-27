@@ -8,7 +8,7 @@ public class LivroTest01 {
         Livro livroDois = new Livro();
         Livro livroTres = new Livro();
 
-        livroUm.titulo = "Siddharta";
+        livroUm.titulo = "";
         livroUm.autor = "Herman Hesse";
         livroUm.anoPublicacao = 1946;
 
@@ -20,16 +20,11 @@ public class LivroTest01 {
         livroTres.autor = "Robert Cecil Martin";
         livroTres.anoPublicacao = 2008;
 
-        System.out.println(livroUm.titulo);
-        System.out.println(livroUm.autor);
-        System.out.println(livroUm.anoPublicacao);
+        livroUm.imprimirResumo();
         System.out.println("---------------");
-        System.out.println(livroDois.titulo);
-        System.out.println(livroDois.autor);
-        System.out.println(livroDois.anoPublicacao);
+        livroDois.imprimirResumo();
         System.out.println("---------------");
-        System.out.println(livroTres.titulo);
-        System.out.println(livroTres.autor);
-        System.out.println(livroTres.anoPublicacao);
+        livroTres.imprimirResumo();
+
     }
 }

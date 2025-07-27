@@ -7,4 +7,6 @@ public class Desconto {
 
         System.out.printf("O valor do produto com desconto de %.0f%% é %.2f\n", desconto, precoComDesconto);
     }
+
+
 }

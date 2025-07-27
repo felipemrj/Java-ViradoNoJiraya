@@ -15,10 +15,22 @@ public class ComputadorTest01 {
 
         computadorDois.modelo = "GalaxyBook";
         computadorDois.marca = "Samsung";
-        computadorUm.ano = 2024;
+        computadorDois.ano = 2024;
 
         impressora.exibeComputador(computadorUm);
         impressora.exibeComputador(computadorDois);
+
+        if (computadorUm.estaAtualizado(2025)) {
+            System.out.println("Está atualizado");
+        } else {
+            System.out.println("Está desatualizado");
+        }
+
+        if (computadorDois.estaAtualizado(2025)) {
+            System.out.println("Está atualizado");
+        } else {
+            System.out.println("Está desatualizado");
+        }
 
     }
 }

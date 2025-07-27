@@ -20,11 +20,15 @@ public class CidadeTest01 {
 
         cidadeTres.nome = "Curitiba";
         cidadeTres.estado = "PR";
-        cidadeTres.populacao = 98888;
+        cidadeTres.populacao = 2000000;
 
         impressora.exibeCidade(cidadeUm);
         impressora.exibeCidade(cidadeDois);
         impressora.exibeCidade(cidadeTres);
+
+        System.out.println(cidadeUm.comparaPopulacao(cidadeDois));
+        System.out.println(cidadeDois.comparaPopulacao(cidadeTres));
+        System.out.println(cidadeUm.comparaPopulacao(cidadeTres));
 
 
     }

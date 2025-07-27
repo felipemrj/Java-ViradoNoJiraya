@@ -1,15 +1,13 @@
 package aJavaExercícios.bExerciciosPOO.aExercíciosClassesObjetos.Exercício20.test;
 
-import aJavaExercícios.bExerciciosPOO.aExercíciosClassesObjetos.Exercício20.domain.Agenda;
-import aJavaExercícios.bExerciciosPOO.aExercíciosClassesObjetos.Exercício20.domain.ImprimeAgenda;
+import aJavaExercícios.bExerciciosPOO.aExercíciosClassesObjetos.Exercício20.domain.Contato;
+import aJavaExercícios.bExerciciosPOO.aExercíciosClassesObjetos.Exercício20.domain.ImprimeContato;
 
-import javax.swing.*;
-
-public class AgendaTest01 {
+public class ContatoTest01 {
     public static void main(String[] args) {
-        Agenda contatoUm = new Agenda();
-        Agenda contatoDois = new Agenda();
-        ImprimeAgenda impressora = new ImprimeAgenda();
+        Contato contatoUm = new Contato();
+        Contato contatoDois = new Contato();
+        ImprimeContato impressora = new ImprimeContato();
 
 
         contatoUm.nome = "Felipe";
