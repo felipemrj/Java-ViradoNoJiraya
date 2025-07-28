@@ -1,6 +1,6 @@
 package cJavaOrientaçãoObjetos.Aula13SobrecargaDeMétodos;
 
 public class SobrecargaDeMetodos {
-    // Sobrecarga de método possibilita criar métodos com o mesmo nome mas quantidades ou tipos diferentes de parâmetros
-    // Então o Java irá utilizar o método baseado na quantidade/tipo de argumentos que passarmos para o método
+    /* A sobrecarga de método permite criar vários métodos com o mesmo nome em uma classe, diferenciando-os pela quantidade ou tipo dos parâmetros.
+    Isso facilita o uso de métodos semelhantes para diferentes situações, tornando o código mais organizado e flexível. */
 }
