@@ -9,20 +9,50 @@ public class Aluno {
     private String matricula;
     private int nota;
 
-    private void setNome(String nome) {
+    public Aluno(String nome, String matricula, int nota) {
+        this.nome = nome;
+        this.matricula = matricula;
+        this.nota = nota;
+    }
+
+    public void verificarAprovacao() {
+        if (nota < 7) {
+            System.out.println("Reprovado");
+            return;
+        }
+        System.out.println("Aprovado");
+    }
+
+    public void verificarAprovacao(int notaMinima) {
+        if (nota < notaMinima) {
+            System.out.println("Reprovado");
+            return;
+        }
+        System.out.println("Aprovado");
+    }
+
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
-    private String getNome() {
+    public String getNome() {
         return this.nome;
     }
 
-    private void setMatricula(String matricula) {
+    public void setMatricula(String matricula) {
         this.matricula = matricula;
     }
 
-    private String getMatricula() {
+    public String getMatricula() {
         return this.matricula;
+    }
+
+    public void setNota(int nota) {
+        this.nota = nota;
+    }
+
+    public int getNota() {
+        return this.nota;
     }
 
 
