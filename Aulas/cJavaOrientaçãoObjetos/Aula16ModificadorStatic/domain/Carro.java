@@ -2,7 +2,7 @@ package cJavaOrientaçãoObjetos.Aula16ModificadorStatic.domain;
 
 public class Carro {
     private String nome;
-    public static double velocidadeLimite = 250;
+    private static double velocidadeLimite = 250;
     private double velocidadeMaxima;
 
     public Carro(String nome, double velocidadeMaxima) {
@@ -15,6 +15,14 @@ public class Carro {
         System.out.println("Nome: " + this.nome);
         System.out.println("Velocidade Máxima: " + this.velocidadeMaxima);
         System.out.println("Velocidade Limite: " + velocidadeLimite);
+    }
+
+    public static void setVelocidadeLimite(double velocidadeLimite) {
+        Carro.velocidadeLimite = velocidadeLimite;
+    }
+
+    public static double getVelocidadeLimite() {
+        return Carro.velocidadeLimite;
     }
 
     public void setNome(String nome) {
