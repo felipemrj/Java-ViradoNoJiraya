@@ -3,7 +3,7 @@
 ## 1. Sistema de Biblioteca
 
 - Crie as classes:
-    - **Livro**: título, anoPublicacao, número de páginas
+    - **Livro**: título, gênero
     - **Autor**: nome, nacionalidade
     - **Editora**: nome, endereço
 - Cada livro tem um autor e uma editora.
