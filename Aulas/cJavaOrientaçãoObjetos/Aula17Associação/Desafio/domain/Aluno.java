@@ -16,7 +16,7 @@ public class Aluno {
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
         if (seminario == null) return;
-        System.out.println("Seminário: "+ seminario.getTitulo());
+        System.out.println("Seminário: " + seminario.getTitulo());
 
     }
 

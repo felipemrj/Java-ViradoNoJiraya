@@ -19,7 +19,6 @@ public class SeminarioTest01 {
         Seminario seminario2 = new Seminario("Seminário com 1 aluno", local2, new Aluno[]{aluno1});
         Seminario seminario3 = new Seminario("Seminário com vários alunos", local3, new Aluno[]{aluno1, aluno2, aluno3});
 
-
         Professor professor1 = new Professor("Wellington", "CyberSecurity", new Seminario[]{seminario1});
         Professor professor2 = new Professor("William Suane", "Java", new Seminario[]{seminario2, seminario3});
 
