@@ -16,6 +16,7 @@ public class Cliente {
         return "Cliente{" +
                 "nome='" + nome + '\'' +
                 ", tipoCliente=" + tipoCliente +
+                ", tipoClienteNomeRelatorio=" + tipoCliente.getNomeRelatorio() +
                 ", tipoClienteInt=" + tipoCliente.VALOR +
                 ", tipoPagamento=" + tipoPagamento +
                 '}';
