@@ -12,25 +12,7 @@ Crie classes filhas `Carro` e `Moto`, cada uma com atributos específicos e mét
 
 ---
 
-## 3. Funcionário
-Crie uma classe `Funcionario` com atributos `nome` e `salario`.  
-Crie as subclasses `Gerente` e `Desenvolvedor`, cada uma implementando um método específico chamado `calcularBonus()`, com regras diferentes para cada tipo de funcionário.
-
----
-
-## 4. Forma Geométrica
-Implemente uma classe abstrata `Forma` com um método abstrato `calcularArea()`.  
-Crie subclasses `Circulo`, `Retangulo` e `Triangulo`, cada uma implementando o cálculo da área conforme sua forma.
-
----
-
-## 5. Conta Bancária
-Implemente uma classe `ContaBancaria` com métodos como `depositar(double valor)` e `sacar(double valor)`.  
-Crie as subclasses `ContaPoupanca` e `ContaCorrente`, cada uma com regras diferentes para saque e depósito.
-
----
-
-## 6. Personagem de Jogo
+## 3. Personagem de Jogo
 Crie uma classe `Personagem` com atributos `vida` e `poder`.  
 Crie as subclasses `Guerreiro` e `Mago`, cada uma com métodos especiais e atributos adicionais.
 
