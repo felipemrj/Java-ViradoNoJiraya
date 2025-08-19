@@ -1,6 +1,6 @@
 package cJavaOrientaçãoObjetos.Aula19Sobrescrita.domain;
 
-public class Anime extends Object {
+public class Anime {
     private String nome;
 
     @Override
