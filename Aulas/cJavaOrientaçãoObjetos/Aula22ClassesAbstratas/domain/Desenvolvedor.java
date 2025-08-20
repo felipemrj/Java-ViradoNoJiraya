@@ -6,6 +6,11 @@ public class Desenvolvedor extends Funcionario {
     }
 
     @Override
+    public void imprime() {
+
+    }
+
+    @Override
     public void calculaBonus() {
         this.salario = this.salario + this.salario * 0.05;
     }

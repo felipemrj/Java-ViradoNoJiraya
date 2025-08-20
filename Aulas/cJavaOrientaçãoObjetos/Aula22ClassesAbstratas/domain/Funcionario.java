@@ -1,6 +1,6 @@
 package cJavaOrientaçãoObjetos.Aula22ClassesAbstratas.domain;
 
-public abstract class Funcionario {
+public abstract class Funcionario extends Pessoa {
     protected String nome;
     protected double salario;
 
