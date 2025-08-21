@@ -35,24 +35,23 @@ Implemente pelo menos duas classes diferentes de `Calculadora` (por exemplo, som
 
 ---
 
-## 4. Interface Funcional e Expressões Lambda
+## 4. Interface Básica de Imprimível
 
-Defina uma interface funcional chamada `Operacao` com um único método:
-- `executar(int x, int y)`
+Defina uma interface chamada `Imprimivel` com o método:
+- `void imprimir()`
 
-Em uma classe de teste, crie instâncias de `Operacao` usando expressões lambda para operações básicas (soma, subtração, multiplicação e divisão). Aplique cada operação a um conjunto de pares de números.
-
----
-
-## 5. Ordenação de Objetos com Comparator via Interface
-
-Crie uma classe `Produto` com os atributos:
-- `nome` (String)
-- `preco` (double)
-
-Defina uma interface `Comparavel` que estenda `Comparator<Produto>` e ofereça um método default `ordenar(List<Produto> produtos)`.  
-Implemente dois comparadores diferentes (por nome e por preço) e use-os para ordenar listas de `Produto`.
+Crie duas classes, `Documento` e `Foto`, que implementem a interface `Imprimivel`. Cada classe deve exibir uma mensagem diferente ao ser impressa.
 
 ---
 
-**Dica:** Interfaces em Java são usadas para definir contratos de métodos que devem ser implementados pelas classes concretas. Elas também podem possuir métodos default e estáticos, além de serem usadas como base para expressões lambda e comparadores.
+## 5. Interface de Mensagem
+
+Crie uma interface chamada `Mensagem` com o método:
+- `String getMensagem()`
+
+Implemente duas classes, `MensagemTexto` e `MensagemEmail`, cada uma retornando uma mensagem diferente ao implementar o método `getMensagem()`.
+
+---
+
+**Dica:**  
+Estes exercícios vão te ajudar a compreender como interfaces podem ser usadas para definir comportamentos comuns entre diferentes tipos de objetos, mesmo que suas implementações sejam distintas.
