@@ -10,5 +10,11 @@ public class DataLoaderTest01 {
 
         dbloader.load();
         floader.load();
+
+        dbloader.remove();
+        floader.remove();
+
+        dbloader.checkPermission();
+        floader.checkPermission();
     }
 }
