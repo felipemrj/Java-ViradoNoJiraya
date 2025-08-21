@@ -1,6 +1,6 @@
 package cJavaOrientaçãoObjetos.Aula23Interfaces;
 
-public class PT02Interfaces {
+public class PT02InterfacesImplementandoMúltiplas {
     /*
     Uma das vantagens da Interface é que se pode prover implementação para múltiplas interfaces em uma mesma classe
     Ao contrário de classes não há limites de interfaces que você pode implementar em uma classe, ao contrário de classes
