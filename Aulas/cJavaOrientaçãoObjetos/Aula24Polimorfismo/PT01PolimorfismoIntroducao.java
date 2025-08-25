@@ -1,6 +1,6 @@
 package cJavaOrientaçãoObjetos.Aula24Polimorfismo;
 
-public class PT01Polimorfismo {
+public class PT01PolimorfismoIntroducao {
 /*
 Polimorfismo é a capacidade de um objeto assumir diferentes formas, permitindo que uma variável
 de referência de um tipo mais genérico possa apontar para objetos de tipos mais específicos.

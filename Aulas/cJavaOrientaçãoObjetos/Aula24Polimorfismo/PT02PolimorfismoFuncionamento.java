@@ -1,6 +1,6 @@
 package cJavaOrientaçãoObjetos.Aula24Polimorfismo;
 
-public class PT02Polimorfismo {
+public class PT02PolimorfismoFuncionamento {
     /*
     Exemplo códdigo:
     Criamos objetos do tipo Computador e Tomate, mas utilizamos uma variável de referência do tipo mais genérico Produto.
