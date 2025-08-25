@@ -3,6 +3,7 @@ package aJavaExercícios.bExerciciosPOO.iExercíciosPolimorfismo.Exercício01.te
 import aJavaExercícios.bExerciciosPOO.iExercíciosPolimorfismo.Exercício01.domain.Animal;
 import aJavaExercícios.bExerciciosPOO.iExercíciosPolimorfismo.Exercício01.domain.Cachorro;
 import aJavaExercícios.bExerciciosPOO.iExercíciosPolimorfismo.Exercício01.domain.Gato;
+import aJavaExercícios.bExerciciosPOO.iExercíciosPolimorfismo.Exercício01.domain.ImpressoraAnimal;
 
 public class AnimalTest {
     public static void main(String[] args) {
@@ -11,5 +12,8 @@ public class AnimalTest {
 
         gato.emitirSom();
         cachorro.emitirSom();
+        System.out.println("---");
+        ImpressoraAnimal.imprimirSom(gato);
+        ImpressoraAnimal.imprimirSom(cachorro);
     }
 }
