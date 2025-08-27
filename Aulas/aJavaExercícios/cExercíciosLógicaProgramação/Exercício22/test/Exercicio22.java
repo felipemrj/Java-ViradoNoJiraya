@@ -2,7 +2,7 @@ package aJavaExercícios.cExercíciosLógicaProgramação.Exercício22.test;
 
 import java.util.Scanner;
 
-public class Exeercicio22 {
+public class Exercicio22 {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
 
