@@ -10,7 +10,7 @@ public class PT02ExceçõesRuntimeException {
     tratadas, elas vão lançar um erro em tempo de compilação. Precisamos obrigatoriamente
     fazer um tratamento.
 
-    Unchecked: São exceções que são filhas ou da classe RuntimeException. Quando são
+    Unchecked: São exceções que são filhas da classe RuntimeException. Quando são
     lançadas pelo programas geralmente significa que o problema foi causado por quem
     escreveu o código. Não é obrigatório o tratamento.
 
