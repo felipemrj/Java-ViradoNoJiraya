@@ -2,20 +2,23 @@ package dJavaExceções;
 
 public class PT03ExceçõesException {
     /*
-    Para fazermos o tratamento das exceções utilizamos o "try e catch"
-    Dentro do bloco try irá o código a ser executado que pode causar a exceção
-    e dentro do bloco catch o que o programa vai executar em caso de exceção.
-    No catch temos que especificar qual exceção estamos tratando especificamente para sabermos
-    o que aconteceu invés de usar uma exceção geral como "Exception" porque dessa forma
-    não saberíamos exatamente o que causou o problema.
+    Para tratar exceções em Java, utilizamos os blocos "try" e "catch".
+    No bloco "try", colocamos o código que pode gerar uma exceção durante a execução.
+    No bloco "catch", definimos o que o programa deve fazer caso essa exceção aconteça.
 
-    Quando ocorrer um erro dentro do bloco try, ele irá pular da linha onde ocorreu diretamente
-    para o bloco catch.
+    É importante especificar no "catch" qual tipo de exceção estamos tratando.
+    Evite usar a exceção genérica "Exception", pois assim não saberemos exatamente qual foi o erro,
+    dificultando o diagnóstico e o tratamento adequado.
 
-    O bloco catch nunca pode ser deixado em branco ignorando a exceção. Sempre deixar claro o que
-    aconteceu. Uma forma é utilzando o métod.o printStackTrace, esse métod.o imprime tudo o que aconteceu
-    na stack para identificarmos, mas o programa não vai simplesmente parar de funcionar.
-    Observação: Não colocar lógica de negócio dentro do bloco catch, o catch é simplesmente para lidar
-    com exceções.
-     */
+    Quando ocorre um erro dentro do bloco "try", o programa interrompe a execução naquele ponto
+    e salta diretamente para o bloco "catch" correspondente.
+
+    Nunca deixe o bloco "catch" vazio, ignorando a exceção.
+    Sempre registre o ocorrido, por exemplo, usando o método "printStackTrace()".
+    Esse método imprime na tela toda a pilha de chamadas (stack trace), facilitando a identificação do problema.
+    Vale lembrar que o uso do "printStackTrace()" não faz o programa parar de funcionar; ele apenas registra o erro.
+
+    Observação: Não coloque lógica de negócio dentro do bloco "catch".
+    O "catch" deve ser utilizado exclusivamente para lidar com exceções, como registrar erros ou informar o usuário.
+    */
 }
