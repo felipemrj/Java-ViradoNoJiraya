@@ -1,6 +1,6 @@
 package eJavaClassesUtilitárias.Aula27Strings;
 
-public class PT02Strings {
+public class PT02StringsMétodos {
     /*
     Strings em Java possuem diversos métodos utilitários para manipulação, análise e transformação de texto.
     Abaixo estão explicações sobre os principais métodos usados no exemplo acima, sua sintaxe e usos:
