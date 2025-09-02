@@ -39,13 +39,3 @@ Implemente um código que pode lançar tanto `ArrayIndexOutOfBoundsException` qu
 Implemente uma exceção customizada chamada `IdadeInvalidaException` (unchecked).
 - Crie um método que valida a idade do usuário e lança essa exceção se a idade não cumprir requisitos mínimos (ex: menor que 18 ou maior que 120).
 - Trate essa exceção informando ao usuário como inserir uma idade válida.
-
-## 9. Exercício: Sobrescrita de métodos e exceções
-Crie uma classe base com um método que lança uma exceção checked (ex: `Exception`).
-- Crie uma subclasse e sobrescreva o método lançando uma exceção mais específica (ex: uma customizada), ou sem lançar exceção.
-
-## 10. Exercício: Relançando exceção (rethrow)
-Implemente um método que realiza uma operação matemática e trata a exceção, registrando o erro.
-- Depois, relance a exceção para que o chamador também possa tratar.
-
----
