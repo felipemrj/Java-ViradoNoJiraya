@@ -3,7 +3,7 @@ package eJavaClassesUtilitárias.Aula28Datas.test;
 import java.util.Calendar;
 import java.util.Date;
 
-public class CalendarTest02 {
+public class CalendarTest01 {
     public static void main(String[] args) {
         Calendar c = Calendar.getInstance();
 
