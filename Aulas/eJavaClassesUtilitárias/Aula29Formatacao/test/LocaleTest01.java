@@ -1,4 +1,4 @@
-package eJavaClassesUtilitárias.Aula29Locale.test;
+package eJavaClassesUtilitárias.Aula29Formatacao.test;
 
 import java.text.DateFormat;
 import java.util.Calendar;

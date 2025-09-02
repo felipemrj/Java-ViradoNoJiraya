@@ -4,7 +4,8 @@ public class PT01Strings {
     /*
     Strings em Java são objetos especiais e possuem uma característica fundamental: **imutabilidade**.
 
-    Imutabilidade significa que, uma vez criada, uma String **não pode ser alterada**. Qualquer operação que pareça modificar uma String, na verdade, cria um novo objeto String. Por exemplo: `nome.concat(" Suane");` não altera o valor de `nome`, apenas retorna uma nova String com o conteúdo concatenado.
+    Imutabilidade significa que, uma vez criada, uma String **não pode ser alterada**. Qualquer operação que pareça modificar uma String, na verdade, cria um novo objeto String.
+    Por exemplo: `nome.concat(" Suane");` não altera o valor de `nome`, apenas retorna uma nova String com o conteúdo concatenado.
 
     Por que as Strings são imutáveis?
     - Segurança: Strings são usadas em muitas partes críticas do Java, como caminhos de arquivos e variáveis de ambiente. Imutabilidade evita alterações acidentais ou maliciosas.

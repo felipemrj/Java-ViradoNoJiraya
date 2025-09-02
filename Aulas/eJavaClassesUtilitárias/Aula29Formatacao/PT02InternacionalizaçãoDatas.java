@@ -1,6 +1,6 @@
-package eJavaClassesUtilitárias.Aula29Locale;
+package eJavaClassesUtilitárias.Aula29Formatacao;
 
-public class PT01InternacionalizaçãoDatas {
+public class PT02InternacionalizaçãoDatas {
     /*
     A classe Locale foi criada para facilitar a **internacionalização** (i18n) de aplicações Java, permitindo adaptar datas, moedas, números e textos conforme a preferência do usuário ou localização da JVM.
 

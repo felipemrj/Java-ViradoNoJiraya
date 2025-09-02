@@ -3,7 +3,7 @@ package eJavaClassesUtilitárias.Aula27Strings;
 public class PT02StringsMétodos {
     /*
     Strings em Java possuem diversos métodos utilitários para manipulação, análise e transformação de texto.
-    Abaixo estão explicações sobre os principais métodos usados no exemplo acima, sua sintaxe e usos:
+    Abaixo estão explicações sobre os principais métodos usados, sua sintaxe e usos:
 
     - charAt(int index): Retorna o caractere presente na posição indicada pelo índice (começando do zero).
       Exemplo: nome.charAt(0); // Retorna o primeiro caractere da String

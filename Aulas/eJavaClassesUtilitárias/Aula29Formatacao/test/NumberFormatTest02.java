@@ -1,4 +1,4 @@
-package eJavaClassesUtilitárias.Aula29Locale.test;
+package eJavaClassesUtilitárias.Aula29Formatacao.test;
 
 import java.text.NumberFormat;
 import java.text.ParseException;

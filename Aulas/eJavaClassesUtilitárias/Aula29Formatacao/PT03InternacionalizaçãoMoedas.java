@@ -1,4 +1,4 @@
-package eJavaClassesUtilitárias.Aula29Locale;
+package eJavaClassesUtilitárias.Aula29Formatacao;
 
 public class PT03InternacionalizaçãoMoedas {
     /*
