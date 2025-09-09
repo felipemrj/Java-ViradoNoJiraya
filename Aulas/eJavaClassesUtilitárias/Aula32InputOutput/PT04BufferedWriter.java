@@ -10,9 +10,9 @@ public class PT04BufferedWriter {
 
     No exemplo acima:
     - `BufferedWriter br = new BufferedWriter(fw)`: Cria um BufferedWriter a partir de um FileWriter, permitindo escrita com buffer.
-    - `br.write(...)`: Escreve uma String no arquivo.
-    - `br.newLine()`: Adiciona uma quebra de linha (compatível com o sistema operacional).
-    - `br.flush()`: Garante que todos os dados do buffer sejam gravados no arquivo imediatamente.
+    - `bw.write(...)`: Escreve uma String no arquivo.
+    - `bw.newLine()`: Adiciona uma quebra de linha (compatível com o sistema operacional).
+    - `bw.flush()`: Garante que todos os dados do buffer sejam gravados no arquivo imediatamente.
     - O bloco try-with-resources garante fechamento automático do BufferedWriter e do FileWriter.
 
     Resumo:
