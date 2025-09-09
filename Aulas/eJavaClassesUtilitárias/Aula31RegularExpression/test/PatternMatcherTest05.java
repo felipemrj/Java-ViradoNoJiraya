@@ -1,10 +1,9 @@
 package eJavaClassesUtilitárias.Aula31RegularExpression.test;
 
-import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class PatternMatcherTest04 {
+public class PatternMatcherTest05 {
     public static void main(String[] args) {
         // \d = Todos os dígitos
         // \D = Tudo que não for dígito
@@ -21,13 +20,9 @@ public class PatternMatcherTest04 {
         // |
         // | o(v|c)o ovo ou oco
         // $ fim da linha
-        String regex = "([a-zA-Z0-9\\._-])+@([a-zA-Z])+(\\.([a-zA-Z])+)+";
-        String texto = "luffy@hotmail.com, 123jotaro@gmail.com, #@!zoro@mail.br, teste@gmail.com.br, sakura@mail";
-
-        System.out.println("Email válido");
-        System.out.println("#@!zoro@mail.br".matches(regex));
-        System.out.println(Arrays.toString(texto.split(",")));
-        System.out.println(texto.split(",")[1].trim());
+        // . 1.3 = 123, 133, 1@3, 1A3
+        String regex = "0[xX]([0-9a-fA-F])+(\\s|$)";
+        String texto = "12 0x 0x 0xFFABC 0x10G 0x1";
 
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(texto);
